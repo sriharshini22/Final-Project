@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "majorback",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authmajorback672ead49"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 300,
+        "apiKeyExpirationDate": "2024-08-25T05:41:16.993Z",
+        "keyDescription": "major-back"
+      }
+    ]
+  }
+}

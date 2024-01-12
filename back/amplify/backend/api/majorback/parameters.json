@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "majorback",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authmajorback672ead49",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
